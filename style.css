@@ -13,7 +13,6 @@ body {
     width: 100%;
     height: 75px;
     background-color: rgb(28, 27, 46);
-    vertical-align: middle;
 }
 
 .top__first {
@@ -54,4 +53,60 @@ body {
     padding: 5px;
     background-color: rgba(129, 129, 129, 0.479);
     border-radius: 5px;
+}
+
+.top__sec-third {
+    vertical-align: middle;
+    display: inline-block;
+    position: relative;
+    width: 1px;
+    height: 50px;
+    top: 8px;
+    background-color: rgba(255, 255, 255, 0.377);
+    margin-left: 60%;
+}
+
+.top__third {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.reg {
+    vertical-align: middle;
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    position: relative;
+    top: 6px;
+    background-color: rgba(92, 92, 190, 0.411);
+    border-radius: 10px;
+    border: 1px solid rgb(7, 7, 175);
+    margin-right: 5px;
+}
+
+.sigin {
+    vertical-align: middle;
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    position: relative;
+    top: 6px;
+    text-align: center;
+    background-color: rgba(69, 69, 73, 0.411);
+    border-radius: 10px;
+    border: 1px solid rgb(7, 7, 175);
+}
+
+.reg p {
+    position: relative;
+    left: 50%;
+    margin-right: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.sigin p {
+    position: relative;
+    left: 50%;
+    margin-right: 50%;
+    transform: translate(-50%, 0%);
 }
